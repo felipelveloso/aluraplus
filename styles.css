@@ -5,6 +5,7 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
     --font-principal: 'Inter';
+    --botao-azul-efeito: #04f32c;
 }
 /*↑↑                                                                              ↑↑*/
 
@@ -173,6 +174,6 @@ body {
 }
 
 .conteiner__botao:hover{
-    background-color: blueviolet;
+    background-color: var(--botao-azul-efeito);
     color: #00030C;
 }
